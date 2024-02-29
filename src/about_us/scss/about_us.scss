@@ -1,0 +1,64 @@
+.about-us {
+    display: flex;
+    flex-wrap: wrap; /* Додаємо цю властивість, щоб блоки могли переноситися на новий рядок при зменшенні ширини екрану */
+    
+    .image-about-us {
+        width: 100%;
+        .image-about-us-img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .text-section {
+        width: 100%;
+        margin-left: 0; 
+
+        .text-section-h2 {
+            font-size: 48px;
+            margin-bottom: 5px;
+        }
+
+        .text-section-p {
+            color: #4200FF;
+        }
+
+        .details {
+            display: flex;
+            flex-wrap: wrap;
+            .column {
+                flex: 1 0 50%; /* За замовчуванням два стовпці в рядку */
+                max-width: 50%; /* За замовчуванням два стовпці в рядку */
+                .column-img {
+                    float: left;
+                }
+                .column-h2 {
+                    /* Стилі для заголовка */
+                }
+                .column-p {
+                    /* Стилі для тексту */
+                }
+            }
+            @media screen and (max-width: 600px) {
+
+                .column {
+                    flex: 1 0 100%; /* При ширині екрану менше 600px стовпці стають в стопку */
+                    max-width: 100%; /* При ширині екрану менше 600px стовпці стають в стопку */
+                    display: flex; /* Додаємо flex, щоб використовувати властивості flexbox */
+                    justify-content: center; /* Вирівнюємо контент по горизонталі */
+                    align-items: center; /* Вирівнюємо контент по вертикалі */
+                }
+            }
+        }
+    }
+    @media screen and (min-width: 600px) {
+        /* Коли ширина екрану більше 600px, ми встановлюємо горизонтальний макет */
+        flex-direction: row;
+        .image-about-us {
+            width: 35%;
+        }
+        .text-section {
+            width: 65%;
+            margin-left: 100px;
+        }
+    }
+}
