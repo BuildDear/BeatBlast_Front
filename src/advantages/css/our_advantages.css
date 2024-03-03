@@ -1,0 +1,62 @@
+@media (max-width: 600px) {
+  .our-advantages {
+    height: 900px;
+    background: linear-gradient(to bottom, black, purple);
+  }
+  .our-advantages .our-advantages__title {
+    margin-bottom: 4rem;
+    text-align: center;
+    color: white;
+  }
+  .our-advantages .our-advantages__sentence {
+    margin-bottom: 16rem;
+    text-align: center;
+    color: white;
+  }
+  .our-advantages .our-advantages__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-advantages .our-advantages__container .our-advantages__card {
+    width: 18rem;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .our-advantages .our-advantages__container .our-advantages__card .about-us__card-sentence {
+    color: white;
+  }
+}
+@media (min-width: 601px) {
+  .our-advantages {
+    background: linear-gradient(to bottom, black, purple);
+    height: 900px;
+  }
+  .our-advantages .our-advantages__title {
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+    font-size: 48px;
+  }
+  .our-advantages .our-advantages__sentence {
+    margin-bottom: 16rem;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+  }
+  .our-advantages .our-advantages__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .our-advantages .our-advantages__card {
+    width: 18rem;
+    text-align: center;
+  }
+  .our-advantages .our-advantages__card .about-us__card-sentence {
+    color: white;
+  }
+}

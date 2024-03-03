@@ -29,6 +29,7 @@
   .about-us__container {
     width: 65%;
     text-align: center;
+    margin-top: 4rem;
   }
   .about-us__cards {
     display: flex;
