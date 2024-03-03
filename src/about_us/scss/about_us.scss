@@ -1,0 +1,62 @@
+
+@media (max-width: 600px) {
+
+    .about-us__main-img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-us__cards {
+        margin-top: 6rem;
+        
+    }
+
+    .about-us__card {
+        margin-bottom: 4rem; 
+        
+    }
+
+}
+
+
+@media (min-width: 601px) {
+    .about-us {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .about-us__main-img {
+        width: 35%;
+        object-fit: cover;
+    }
+
+    .about-us__container {
+        width: 65%;
+        text-align: center;
+    }
+
+    .about-us__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 10rem;
+        margin-left: 3rem;
+    }
+
+    .about-us__card {
+        width: 48%;
+        margin-bottom: 6rem; 
+        
+    }
+
+    .about-us__sub-img {
+        float: left;
+    }
+    
+}

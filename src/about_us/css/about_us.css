@@ -1,48 +1,47 @@
-@charset "UTF-8";
-.about-us {
-  display: flex;
-  flex-wrap: wrap;
+@media (max-width: 600px) {
+  .about-us__main-img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-us__cards {
+    margin-top: 6rem;
+  }
+  .about-us__card {
+    margin-bottom: 4rem;
+  }
 }
-.about-us .image-about-us {
-  width: 35%;
-}
-.about-us .image-about-us .image-about-us-img {
-  width: 100%;
-  height: auto;
-}
-.about-us .text-section {
-  width: 65%;
-  margin-left: 0;
-}
-.about-us .text-section .text-section-h2 {
-  font-size: 48px;
-  margin-bottom: 5px;
-}
-.about-us .text-section .text-section-p {
-  color: #4200FF;
-}
-.about-us .text-section .details {
-  display: flex;
-  flex-wrap: wrap;
-}
-.about-us .text-section .details .column {
-  flex: 1 0 50%;
-  max-width: 50%;
-}
-.about-us .text-section .details .column .column-img {
-  float: left;
-}
-
-@media (min-width: 600px) {
-  .image-about-us {
+@media (min-width: 601px) {
+  .about-us {
+    display: flex;
+    flex-direction: row;
+  }
+  .about-us__main-img {
     width: 35%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
-  .text-section {
+  .about-us__container {
     width: 65%;
-    margin-left: 100px;
+    text-align: center;
   }
-  .column {
-    flex: 1 0 100%; /* При ширині екрану менше 600px стовпці стають в стопку */
-    max-width: 100%; /* При ширині екрану менше 600px стовпці стають в стопку */
+  .about-us__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10rem;
+    margin-left: 3rem;
+  }
+  .about-us__card {
+    width: 48%;
+    margin-bottom: 6rem;
+  }
+  .about-us__sub-img {
+    float: left;
   }
 }
