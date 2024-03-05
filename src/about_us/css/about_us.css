@@ -24,37 +24,32 @@
     display: flex;
     flex-direction: row;
   }
-  .about-us__main-img {
+  .about-us .about-us__main-img {
     width: 35%;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .about-us__container {
+  .about-us .about-us__container {
     width: 65%;
     text-align: center;
     margin-top: 4rem;
   }
-  .about-us__container .about-us__title {
+  .about-us .about-us__container .about-us__title {
     margin-bottom: 2rem;
+    font-size: 48px;
   }
-  .about-us__cards {
+  .about-us .about-us__container .about-us__sentence {
+    font-size: 24px;
+  }
+  .about-us .about-us__container .about-us__cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10rem;
     margin-left: 3rem;
   }
-  .about-us__card {
+  .about-us .about-us__container .about-us__cards .about-us__card {
     width: 44%;
     margin-bottom: 6rem;
-  }
-  .about-us__title {
-    font-size: 48px;
-  }
-  .about-us__sentence {
-    font-size: 24px;
-  }
-  .about-us__sub-img {
-    float: left;
   }
 }
