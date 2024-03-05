@@ -1,21 +1,21 @@
 @media (max-width: 600px) {
-  .about-us__main-img {
-    width: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
   .about-us {
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-  .about-us__title {
+  .about-us .about-us__main-img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .about-us .about-us__title {
     margin-bottom: 2rem;
   }
-  .about-us__cards {
+  .about-us .about-us__cards {
     margin-top: 6rem;
   }
-  .about-us__card {
+  .about-us .about-us__cards .about-us__card {
     margin-bottom: 4rem;
   }
 }
