@@ -12,6 +12,10 @@
         text-align: center;
     }
 
+    .about-us__title {
+        margin-bottom: 2rem;
+    }
+
     .about-us__cards {
         margin-top: 6rem;
         
@@ -40,6 +44,10 @@
         width: 65%;
         text-align: center;
         margin-top: 4rem;
+
+        .about-us__title {
+            margin-bottom: 2rem;
+        }
     }
 
     .about-us__cards {
@@ -51,9 +59,17 @@
     }
 
     .about-us__card {
-        width: 48%;
+        width: 44%;
         margin-bottom: 6rem; 
         
+    }
+
+    .about-us__title {
+        font-size: 48px;
+    }
+
+    .about-us__sentence {
+        font-size: 24px;
     }
 
     .about-us__sub-img {

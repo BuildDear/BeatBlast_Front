@@ -1,18 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 @media (max-width: 600px) {
 
    .our-advantages {
-        height: 900px;
+        height: 90hv;
         background: linear-gradient(to bottom, black, purple);
 
         .our-advantages__title {
             margin-bottom: 4rem;
+            padding-top: 5rem;
             text-align: center;
             color: white;            
         }
+
+        .our-advantages__subtitle {
+            margin-bottom: 5rem;
+        }
         
         .our-advantages__sentence {
-            margin-bottom: 16rem;
+            margin-bottom: 5rem;
             text-align: center;
             color: white;
         }
@@ -41,18 +52,22 @@
 
    .our-advantages {
     background: linear-gradient(to bottom, black, purple);
-    height: 900px;
+    height: 90vh;
         
     .our-advantages__title {
-        margin-bottom: 4rem;
-        margin-top: 3rem;
+        padding-top: 4rem;
+        padding-bottom: 6rem;
         text-align: center;
         color: white;
         font-size: 48px;
     }
 
+    .our-advantages__subtitle {
+        margin-bottom: 8rem;
+    }
+
     .our-advantages__sentence {
-        margin-bottom: 16rem;
+        margin-bottom: 4rem;
         text-align: center;
         color: white;
         font-size: 24px;
