@@ -36,7 +36,9 @@
   }
   .about-us .about-us__container .about-us__title {
     margin-bottom: 2rem;
-    font-size: 48px;
+    font-size: 72px;
+    font-family: "Rubik Doodle Shadow", system-ui;
+    font-style: normal;
   }
   .about-us .about-us__container .about-us__sentence {
     font-size: 24px;

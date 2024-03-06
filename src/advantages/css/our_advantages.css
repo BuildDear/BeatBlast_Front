@@ -14,6 +14,8 @@
     padding-top: 5rem;
     text-align: center;
     color: white;
+    font-family: "Rowdies", sans-serif;
+    font-style: normal;
   }
   .our-advantages .our-advantages__subtitle {
     margin-bottom: 5rem;
@@ -49,8 +51,11 @@
     text-align: center;
     color: white;
     font-size: 48px;
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "BLED" 0, "SCAN" 0;
   }
-  .our-advantages .our-advantages__subtitle {
+  .our-advantages .our-advantages__subtitle-container {
     margin-bottom: 8rem;
   }
   .our-advantages .our-advantages__sentence {
@@ -58,6 +63,8 @@
     text-align: center;
     color: white;
     font-size: 24px;
+    font-family: "Black Han Sans", sans-serif;
+    font-style: normal;
   }
   .our-advantages .our-advantages__container {
     display: flex;
