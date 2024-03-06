@@ -87,14 +87,14 @@
     width: 18rem;
     text-align: center;
   }
-  .our-advantages .our-advantages__card .about-us__card-sentence {
+  .our-advantages .our-advantages__card .our-advantages__card-sentence {
     color: white;
     font-family: "RocknRoll One", sans-serif;
     font-style: normal;
     font-size: 20px;
     transition: transform 0.3s ease;
   }
-  .our-advantages .our-advantages__card .about-us__card-sentence:hover {
+  .our-advantages .our-advantages__card .our-advantages__card-sentence:hover {
     transform: scale(1.5);
   }
 }

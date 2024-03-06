@@ -108,7 +108,7 @@
             width: 18rem;
             text-align: center;
 
-            .about-us__card-sentence {
+            .our-advantages__card-sentence {
                 color: white;
                 font-family: "RocknRoll One", sans-serif;
                 font-style: normal;
@@ -116,8 +116,9 @@
                 transition: transform 0.3s ease;
             }
 
-            .about-us__card-sentence:hover {
+            .our-advantages__card-sentence:hover {
                 transform: scale(1.5);
+                
             }
         }
     }
