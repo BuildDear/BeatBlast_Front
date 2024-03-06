@@ -13,16 +13,22 @@
 
         .about-us__title {
             margin-bottom: 2rem;
+            font-size: 72px;
+            font-family: "Rubik Doodle Shadow", system-ui;
+            font-style: normal;
         }
 
         .about-us__cards {
             margin-top: 6rem;
 
             .about-us__card {
-                margin-bottom: 4rem; 
+                width: 44%;
+                margin-bottom: 6rem; 
                 
+                .about-us__card-title {
+                    font-size: 33px;
+                }
             }
-            
         }
     }
 }
@@ -66,6 +72,9 @@
                     width: 44%;
                     margin-bottom: 6rem; 
                     
+                    .about-us__card-title {
+                        font-size: 33px;
+                    }
                 }
             }
         }

@@ -16,8 +16,11 @@
             padding-top: 5rem;
             text-align: center;
             color: white;    
-            font-family: "Rowdies", sans-serif;
-            font-style: normal;        
+            font-family: "Sixtyfour", sans-serif;
+            font-optical-sizing: auto;
+            font-variation-settings:
+                "BLED" 0,
+                "SCAN" 0;      
         }
 
         .our-advantages__subtitle {
@@ -28,6 +31,9 @@
             margin-bottom: 5rem;
             text-align: center;
             color: white;
+            font-size: 24px;
+            font-family: "Black Han Sans", sans-serif;
+            font-style: normal;
         }
 
         .our-advantages__container {
@@ -43,6 +49,14 @@
     
                 .about-us__card-sentence {
                     color: white;
+                    font-family: "RocknRoll One", sans-serif;
+                    font-style: normal;
+                    font-size: 20px;
+                    transition: transform 0.3s ease;
+                }
+
+                .about-us__card-sentence:hover {
+                    transform: scale(1.3);
                 }
             }
         }
@@ -96,6 +110,14 @@
 
             .about-us__card-sentence {
                 color: white;
+                font-family: "RocknRoll One", sans-serif;
+                font-style: normal;
+                font-size: 20px;
+                transition: transform 0.3s ease;
+            }
+
+            .about-us__card-sentence:hover {
+                transform: scale(1.5);
             }
         }
     }
