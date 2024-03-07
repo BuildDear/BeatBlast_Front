@@ -1,0 +1,112 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    hyphens: auto;
+}
+
+.scrollable-bg {
+    background-image: url('LR22.jpg');
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: auto;
+}
+header, footer {
+    background-color: skyblue;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Стилі для анімацій та трансформацій */
+button {
+    background-color: #3dd2f0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #036275;
+}
+
+/* Стилі для анімації тексту */
+blockquote {
+    font-style: italic;
+    position: relative;
+}
+
+blockquote:before {
+    content: '"';
+    position: absolute;
+    top: 0;
+    left: -20px;
+    font-size: 3em;
+    color: #333;
+}
+
+blockquote:after {
+    content: '"';
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    font-size: 3em;
+    color: #333;
+}
+
+/* Інші стилізації */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+}
+#resources table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#resources th, #resources td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: white;
+}
+
+/* #resources th {
+    background-color: #f2f2f2;
+}
+
+#resources tr:nth-child(even) {
+    background-color: #f2f2f2;
+} */
+
