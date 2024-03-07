@@ -25,6 +25,10 @@
     width: 44%;
     margin-bottom: 6rem;
   }
+  .about-us .about-us__cards .about-us__card .about-us__card-sentence {
+    text-align: left;
+    margin-top: 0.4rem;
+  }
   .about-us .about-us__cards .about-us__card .about-us__card-title {
     font-size: 33px;
   }
@@ -64,6 +68,10 @@
     width: 44%;
     margin-bottom: 6rem;
   }
+  .about-us .about-us__container .about-us__cards .about-us__card .about-us__card-sentence {
+    text-align: left;
+    margin-top: 0.8rem;
+  }
   .about-us .about-us__container .about-us__cards .about-us__card .about-us__card-title {
     font-size: 33px;
     transition: transform 0.3s ease;
@@ -71,4 +79,4 @@
   .about-us .about-us__container .about-us__cards .about-us__card .about-us__card-title:hover {
     color: #DF0AE3;
   }
-}
+}/*# sourceMappingURL=about_us.css.map */
