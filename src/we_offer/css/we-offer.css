@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.we-offer {
+  background: linear-gradient(to bottom, #3C6895 0%, #3C6895 100%, #0A2E52 0%, #0A2E52 100%, #000000 0%, #000000 100%, #042341 0%, #042341 0%, #010408 0%, #010408 100%);
+  width: 100%;
+  height: 80vh; /* або інша висота за вашим вибором */
+}
+.we-offer .we-offer__title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.56rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 2rem;
+}
+.we-offer .we-offer__container-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16rem;
+  gap: 10rem;
+}
+.we-offer .we-offer__container-box .we-offer__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.we-offer .we-offer__container-box .we-offer__card #we-offer__img {
+  width: 45px;
+  padding-bottom: 0.8rem;
+}
+.we-offer .we-offer__container-box .we-offer__card .we-offer__card__title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.38rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.we-offer .we-offer__container-box .we-offer__card .we-offer__card__title .we-offer__card__caption {
+  padding-top: 0.4rem;
+  font-size: 0.88rem;
+  font-weight: 400;
+  line-height: 1.06rem;
+  letter-spacing: 0.1rem;
+  text-align: left;
+  text-transform: uppercase;
+}/*# sourceMappingURL=we-offer.css.map */
