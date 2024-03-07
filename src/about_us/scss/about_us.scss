@@ -20,6 +20,9 @@
 
         .about-us__cards {
             margin-top: 6rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
             .about-us__card {
                 width: 44%;
