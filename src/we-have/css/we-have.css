@@ -13,9 +13,6 @@
   text-transform: uppercase;
   padding-top: 2rem;
 }
-.we-have .we-have__title.element-show {
-  transition: all 1.5s;
-}
 .we-have .we-have__container-box {
   display: flex;
   justify-content: center;
@@ -49,4 +46,4 @@
   line-height: 1rem;
   letter-spacing: 0rem;
   text-align: left;
-}/*# sourceMappingURL=we-offer.css.map */
+}/*# sourceMappingURL=we-have.css.map */
