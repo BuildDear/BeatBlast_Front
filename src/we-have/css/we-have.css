@@ -13,9 +13,6 @@
   text-transform: uppercase;
   padding-top: 2rem;
 }
-.we-have .we-have__title.element-show {
-  transition: all 1.5s;
-}
 .we-have .we-have__container-box {
   display: flex;
   justify-content: center;
@@ -49,44 +46,4 @@
   line-height: 1rem;
   letter-spacing: 0rem;
   text-align: left;
-}
-
-@media (max-width: 600px) {
-  .we-have__title.element-show {
-    transition: all 1.5s;
-  }
-  .we-have__container-box {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 16rem;
-    gap: 10rem;
-  }
-  .we-have__container-box .we-have__card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .we-have__container-box .we-have__card #we-have__img {
-    width: 45px;
-    padding-bottom: 0.8rem;
-  }
-  .we-have__container-box .we-have__card .we-have__card__title {
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 500;
-    line-height: 2.38rem;
-    letter-spacing: 0.1rem;
-    text-align: center;
-    text-transform: uppercase;
-  }
-  .we-have__container-box .we-have__card .we-have__card__title .we-have__card__caption {
-    padding-top: 0.4rem;
-    font-size: 0.8rem;
-    font-weight: 400;
-    line-height: 1rem;
-    letter-spacing: 0rem;
-    text-align: left;
-  }
 }
