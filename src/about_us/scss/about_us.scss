@@ -27,6 +27,11 @@
             .about-us__card {
                 width: 44%;
                 margin-bottom: 6rem; 
+
+                .about-us__card-sentence {
+                    text-align: left;
+                    margin-top: .4rem;
+                }
                 
                 .about-us__card-title {
                     font-size: 33px;
@@ -82,6 +87,11 @@
                     width: 44%;
                     margin-bottom: 6rem; 
                     
+                    .about-us__card-sentence { 
+                        text-align: left;
+                        margin-top: .8rem;
+                    }
+
                     .about-us__card-title {
                         font-size: 33px;
                         transition: transform 0.3s ease;
