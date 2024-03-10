@@ -91,4 +91,100 @@
   transition: all 1.5s;
   transform: translateY(0%);
   transition-delay: 1500ms;
+}
+
+@media (max-width: 600px) {
+  .we-offer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 3rem;
+    height: 95vh;
+  }
+  .we-offer .we-offer__title {
+    color: #2D2E2E;
+    padding-top: 2rem;
+    opacity: 1;
+    transform: translateY(20px);
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.56rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .we-offer .we-offer__title.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+    transition-delay: 500ms;
+  }
+  .we-offer .we-offer__container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10rem;
+    row-gap: 4rem;
+    width: 70rem;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+  }
+  .we-offer .we-offer__container .we-offer__card {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    gap: 1rem;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  .we-offer .we-offer__container .we-offer__card #personImg {
+    background-position: 100%;
+    background-size: cover;
+    width: 20vh;
+    height: 20vh;
+    margin: 0 auto;
+  }
+  .we-offer .we-offer__container .we-offer__card .we-offer__block {
+    display: flex;
+    justify-content: center;
+    grid-template-columns: 48px 37rem;
+    width: 30rem;
+    gap: 1rem;
+    text-align: start;
+  }
+  .we-offer .we-offer__container .we-offer__card .we-offer__block #cards_img {
+    display: grid;
+    align-items: center;
+    width: 3rem;
+    align-self: self-start;
+  }
+  .we-offer .we-offer__container .we-offer__card .we-offer__block .we-offer__card__title {
+    color: #2D2E2E;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.38rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  .we-offer .we-offer__container .we-offer__card .we-offer__block .we-offer__card__caption {
+    padding-top: 0.4rem;
+    font-size: 0.88rem;
+    font-weight: 400;
+    line-height: 1.06rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #666;
+  }
+  .we-offer .we-offer__container .we-offer__card.element-show:nth-child(-n+2) {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+  }
+  .we-offer .we-offer__container .we-offer__card.element-show:nth-child(n+3) {
+    display: none;
+  }
 }/*# sourceMappingURL=we-offer.css.map */
