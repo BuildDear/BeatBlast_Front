@@ -14,7 +14,11 @@
   text-transform: uppercase;
   padding-top: 2rem;
 }
+<<<<<<< HEAD:src/we_offer/css/we-offer.css
 .we-offer .we-offer__container-box {
+=======
+.we-have .we-have__container-box {
+>>>>>>> 585991fce9ff7a93c804aaca40b407cb5fc5654b:src/we-have/css/we-have.css
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,5 +51,8 @@
   line-height: 1.06rem;
   letter-spacing: 0.1rem;
   text-align: left;
+<<<<<<< HEAD:src/we_offer/css/we-offer.css
   text-transform: uppercase;
+=======
+>>>>>>> 585991fce9ff7a93c804aaca40b407cb5fc5654b:src/we-have/css/we-have.css
 }
