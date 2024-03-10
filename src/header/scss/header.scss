@@ -10,21 +10,22 @@ $white: #fff;
 }
 
 .header {
-    background: linear-gradient(149deg, #3761e9 0%, #092272 42%, #7423be 72%, #3a0a94 100%);
-    animation: gradient 5s infinite linear;
+    background: linear-gradient(150deg, #3761e9 0%, #092272 42%, #7423be 72%, #3a0a94 100%);
+
+    animation: gradient 5s infinite;
     background-size: 400%;
     height: 945px;
     color: $white;
 
     @keyframes gradient {
         0% {
-            background-position: 80% 0%;
+            background-position: 0% 0%;
         }
         50% {
-            background-position: 20% 100%;
+            background-position: 100% 100%;
         }
         100% {
-            background-position: 80% 0%;
+            background-position: 0% 0%;
         }
     }
 
