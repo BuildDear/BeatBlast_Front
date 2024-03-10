@@ -27,6 +27,10 @@
   }
   .about-us .about-us__cards .about-us__card .about-us__card-title {
     font-size: 33px;
+    transition: transform 0.3s ease;
+  }
+  .about-us .about-us__cards .about-us__card .about-us__card-title:hover {
+    color: #DF0AE3;
   }
 }
 @media (min-width: 601px) {
