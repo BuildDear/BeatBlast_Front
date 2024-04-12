@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/music/css/music.css">
+    <title>Categories</title>
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="header__text">BeatBlat Music</h1>
+    </header>
+
+    <div class="container">
+        <div class="container__cards">
+            
+          
+        </div>
+    </div>
+
+    <button class="btn-add__card">
+        Add Categories
+    </button>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">×</span>
+            <form id="categoryForm">
+                <input type="text" id="name" name="name" placeholder="Name">
+                <input type="text" id="description" name="description" placeholder="Description">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    
+
+    <script src="./src/js/crud/add_music_modal.js"></script>
+    <script src="./src/js/crud/get_all_music.js"></script>
+    <script src="./src/js/crud/delete_music.js"></script>
+</body>
+</html>

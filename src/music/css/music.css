@@ -1,0 +1,126 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header {
+  background-color: rgb(245, 214, 174);
+}
+.header .header__text {
+  height: 5vw;
+  padding-left: 35px;
+  padding-top: 25px;
+  font-size: 40px;
+}
+
+.container {
+  width: 100vw;
+  background-color: rgb(224, 162, 81);
+  display: flex;
+  justify-content: center;
+  padding: 2rem 5rem;
+}
+.container__cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.container__cards__item {
+  width: 16vw;
+  height: 24vh;
+  background-color: white;
+  border-radius: 2rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1.2rem;
+}
+.container__cards__item__buttons {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 0.8rem;
+  width: 100%;
+  height: 4rem;
+  margin-right: 2rem;
+}
+.container__cards__item__buttons__edit {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: 4rem;
+  flex-shrink: 3;
+}
+.container__cards__item__buttons__delete {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: 5rem;
+}
+.container__cards__item__buttons #image {
+  width: 1.4rem;
+}
+
+.btn-add__card {
+  display: block;
+  margin: 2rem auto;
+  border: 0;
+  background-color: orange;
+  width: 12rem;
+  height: 4rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: 333ms;
+}
+.btn-add__card:hover {
+  background-color: transparent;
+  transform: scale(1.2);
+  color: black;
+}
+
+.modal {
+  display: none; /* Сховано за замовчуванням */
+  position: fixed; /* Залишається на місці навіть при прокрутці сторінки */
+  z-index: 1; /* Сидить над усіма іншими елементами */
+  left: 0;
+  top: 0;
+  width: 100%; /* Повна ширина */
+  height: 100%; /* Повна висота */
+  overflow: auto; /* У разі потреби додати прокрутку */
+  background-color: rgb(0, 0, 0); /* Колір фону */
+  background-color: rgba(0, 0, 0, 0.4); /* Чорний з непрозорістю */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% від верху та центровано */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Можете змінити на бажану ширину */
+  height: 100px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
